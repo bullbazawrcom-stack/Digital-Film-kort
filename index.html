@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <main class="container">
+        <h1>🎬 Digitalt filmkort</h1>
+        <p class="intro">Tilfeldige filmøyeblikk med Keanu Reeves</p>
+
+        <section class="film-card">
+            <img id="poster" src="" alt="Filmplakat">
+
+            <div class="film-info">
+                <h2 id="title">Laster film...</h2>
+
+                <p><strong>År:</strong> <span id="year">-</span></p>
+                <p><strong>Regissør:</strong> <span id="director">-</span></p>
+                <p><strong>Rollefigur:</strong> <span id="character">-</span></p>
+                <p><strong>Sitat:</strong> <span id="quote">-</span></p>
+                <p><strong>Tidspunkt:</strong> <span id="timestamp">-</span></p>
+                <p><strong>Varighet:</strong> <span id="duration">-</span></p>
+            </div>
+
+            <div class="video-container">
+                <h3>Filmklipp</h3>
+                <video id="video" controls>
+                    Nettleseren din støtter ikke video.
+                </video>
+            </div>
+
+            <p id="status" role="status"></p>
+
+            <button id="new-film">Ny film</button>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
